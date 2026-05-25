@@ -1,7 +1,6 @@
 # img_game
 
-使用 AI 生成图片资源的高质量网页游戏开发技能及游戏案例。
-
+这是一个小游戏开发技能，可以直接让agent使用技能完成小游戏开发，不再是单调的canvas简图，而是有背景图，精灵动画，音效的比较完整的小游戏，存在明显的问题会继续改掉，当然由于需要用到一些api，花钱是肯定的，但是好处在于开发完成完全是自己的游戏，想发到哪个平台就发哪个平台。
 ## 目录结构
 
 ```
@@ -49,7 +48,7 @@ Use Skill: img-game-dev
 
 直接用浏览器打开 `pig-contra-game/index.html` 即可运行。
 
-## 相关技能
+## 相关技能（依赖的技能会陆续开源出来，给我点时间）
 
 - [game-character-design](https://github.com/jadragfly/game-character-design) - 角色精灵图生成
 - [sprite-management](https://github.com/jadragfly/sprite-management) - 通用精灵管理
