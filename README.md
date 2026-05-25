@@ -32,6 +32,10 @@ Use Skill: img-game-dev
 
 使用 `img-game-dev` 技能开发的完整横版动作游戏。
 
+### 游戏截图
+
+![游戏截图](pig-contra-game/screenshots/game-screenshot.png)
+
 ### 游戏说明
 
 - **游戏类型**：横版平台动作游戏
