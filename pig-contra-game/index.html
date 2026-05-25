@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>猪版魂斗罗 - Pig Contra</title>
+    <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="score">SCORE: <span id="score-value">0</span></div>
+            <div id="lives">LIVES: <span id="lives-value">3</span></div>
+        </div>
+        <div id="start-screen">
+            <h1>猪版魂斗罗</h1>
+            <p>Pig Contra</p>
+            <button id="start-button">开始游戏</button>
+            <div id="controls">
+                <p>操作说明：</p>
+                <p>← → 移动 | ↑ 跳跃 | X 射击 | Z 近身攻击</p>
+            </div>
+        </div>
+        <div id="game-over-screen" class="hidden">
+            <h1>游戏结束</h1>
+            <p>Game Over</p>
+            <p>得分: <span id="final-score">0</span></p>
+            <button id="restart-button">重新开始</button>
+        </div>
+        <div id="loading-screen">
+            <h1>加载中...</h1>
+            <p>Loading...</p>
+        </div>
+    </div>
+    <script type="module" src="js/main.js?v=3"></script>
+</body>
+</html>

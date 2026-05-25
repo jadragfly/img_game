@@ -1,0 +1,27 @@
+QA Report for Pig Soldier
+==================================================
+Animation Mode: game
+Game Type: platformer
+
+Frame Check Results:
+------------------------------
+  idle: 8/8 frames [OK]
+  walk-right: 8/8 frames [OK]
+  walk-left: 8/8 frames [OK]
+  jump: 8/8 frames [OK]
+  crouch: 8/8 frames [OK]
+  attack: 8/8 frames [OK]
+  pickup: 8/8 frames [OK]
+
+Chroma Key Check Results:
+------------------------------
+  idle: 0.0% chroma [OK]
+  walk-right: 0.0% chroma [OK]
+  walk-left: 0.0% chroma [OK]
+  jump: 0.0% chroma [OK]
+  crouch: 0.0% chroma [OK]
+  attack: 0.0% chroma [OK]
+  pickup: 0.0% chroma [OK]
+
+==================================================
+Overall: PASSED

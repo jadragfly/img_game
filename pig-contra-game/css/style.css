@@ -1,0 +1,158 @@
+/* 猪版魂斗罗 - 游戏样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a2e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#game-container {
+    position: relative;
+    width: 960px;
+    height: 540px;
+    background-color: #000;
+    border: 4px solid #4a4a6a;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+    overflow: hidden;
+}
+
+#gameCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+#ui-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+    z-index: 10;
+}
+
+#score, #lives {
+    background: rgba(0, 0, 0, 0.7);
+    color: #0ff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #0ff;
+    border: 2px solid #0ff;
+}
+
+#start-screen, #game-over-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#start-screen h1, #game-over-screen h1 {
+    color: #ff6b6b;
+    font-size: 48px;
+    text-shadow: 0 0 20px #ff6b6b, 0 0 40px #f00;
+    margin-bottom: 10px;
+}
+
+#start-screen p, #game-over-screen p {
+    color: #0ff;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #0ff;
+}
+
+#controls {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #0ff;
+    margin-top: 20px;
+}
+
+#controls p {
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+button {
+    background: linear-gradient(135deg, #ff6b6b, #ff4757);
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.5);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 107, 107, 0.8);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#loading-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+
+#loading-screen h1 {
+    color: #0ff;
+    font-size: 36px;
+    animation: pulse 1.5s infinite;
+}
+
+#loading-screen p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.hidden {
+    display: none !important;
+}

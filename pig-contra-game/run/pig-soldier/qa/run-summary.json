@@ -1,0 +1,517 @@
+{
+  "character_name": "Pig Soldier",
+  "slug": "pig-soldier",
+  "animation_mode": "game",
+  "game_type": "platformer",
+  "quality_checks": {
+    "all_frames_exist": true,
+    "all_chroma_passed": true,
+    "chroma_threshold_percent": 5
+  },
+  "frames": {
+    "idle": {
+      "row": "idle",
+      "expected": 8,
+      "found": 8,
+      "missing": [],
+      "all_exist": true
+    },
+    "walk-right": {
+      "row": "walk-right",
+      "expected": 8,
+      "found": 8,
+      "missing": [],
+      "all_exist": true
+    },
+    "walk-left": {
+      "row": "walk-left",
+      "expected": 8,
+      "found": 8,
+      "missing": [],
+      "all_exist": true
+    },
+    "jump": {
+      "row": "jump",
+      "expected": 8,
+      "found": 8,
+      "missing": [],
+      "all_exist": true
+    },
+    "crouch": {
+      "row": "crouch",
+      "expected": 8,
+      "found": 8,
+      "missing": [],
+      "all_exist": true
+    },
+    "attack": {
+      "row": "attack",
+      "expected": 8,
+      "found": 8,
+      "missing": [],
+      "all_exist": true
+    },
+    "pickup": {
+      "row": "pickup",
+      "expected": 8,
+      "found": 8,
+      "missing": [],
+      "all_exist": true
+    }
+  },
+  "chroma": {
+    "idle": {
+      "average_percent": 0.0,
+      "passed": true,
+      "frames": [
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\idle_0.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\idle_1.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\idle_2.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\idle_3.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\idle_4.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\idle_5.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\idle_6.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\idle_7.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "walk-right": {
+      "average_percent": 0.0,
+      "passed": true,
+      "frames": [
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-right_0.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-right_1.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-right_2.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-right_3.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-right_4.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-right_5.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-right_6.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-right_7.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "walk-left": {
+      "average_percent": 0.0,
+      "passed": true,
+      "frames": [
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-left_0.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-left_1.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-left_2.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-left_3.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-left_4.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-left_5.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-left_6.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\walk-left_7.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "jump": {
+      "average_percent": 0.0,
+      "passed": true,
+      "frames": [
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\jump_0.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\jump_1.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\jump_2.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\jump_3.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\jump_4.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\jump_5.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\jump_6.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\jump_7.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "crouch": {
+      "average_percent": 0.0,
+      "passed": true,
+      "frames": [
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\crouch_0.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\crouch_1.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\crouch_2.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\crouch_3.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\crouch_4.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\crouch_5.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\crouch_6.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\crouch_7.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "attack": {
+      "average_percent": 0.0,
+      "passed": true,
+      "frames": [
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\attack_0.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\attack_1.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\attack_2.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\attack_3.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\attack_4.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\attack_5.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\attack_6.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\attack_7.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "pickup": {
+      "average_percent": 0.0,
+      "passed": true,
+      "frames": [
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\pickup_0.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\pickup_1.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\pickup_2.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\pickup_3.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\pickup_4.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\pickup_5.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\pickup_6.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        },
+        {
+          "path": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\frames\\pickup_7.png",
+          "chroma_pixels": 0,
+          "total_pixels": 39936,
+          "chroma_percent": 0.0,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "rows": {
+    "idle": "succeeded",
+    "walk-right": "succeeded",
+    "walk-left": "succeeded",
+    "jump": "succeeded",
+    "crouch": "succeeded",
+    "attack": "succeeded",
+    "pickup": "succeeded"
+  },
+  "contact_sheet": "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\qa\\contact-sheet.png",
+  "gifs": [
+    "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\qa\\gifs\\idle.gif",
+    "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\qa\\gifs\\walk-right.gif",
+    "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\qa\\gifs\\walk-left.gif",
+    "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\qa\\gifs\\jump.gif",
+    "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\qa\\gifs\\crouch.gif",
+    "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\qa\\gifs\\attack.gif",
+    "D:\\impotent\\skills\\make_game\\pig-contra-game\\run\\pig-soldier\\qa\\gifs\\pickup.gif"
+  ]
+}

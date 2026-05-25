@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#game-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 4px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#gameCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#ui-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#ui-layer > * {
+    pointer-events: auto;
+}
+
+.ui-element {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+#score-display {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    float: right;
+}
+
+#lives-display {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+#controls-info {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#controls-info h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#controls-info ul {
+    list-style: none;
+}
+
+#controls-info li {
+    margin: 5px 0;
+    color: #666;
+}
+
+#controls-info strong {
+    color: #667eea;
+}
+
+@media (max-width: 850px) {
+    #game-container {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
+}
